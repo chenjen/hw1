@@ -1,0 +1,137 @@
+@import url(http://fonts.googleapis.com/css?family=Cutive);
+@import url(http://fonts.googleapis.com/css?family=Puritan:400,700,400italic,700italic);
+@import url(reset.css);
+
+body {
+	background-image: url(../img/pizza1.jpg);
+	background-repeat: inherit;
+	background-size: 100%;
+	font-family: 'Cutive', sans-serif;
+	font-size: 18px;
+	padding: 10px;
+}
+
+p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #48036F;
+	font-weight: bold;
+}
+
+.content-box {
+	background-image: url(../img/ricepaper_v3.png);
+	width: 65%;
+	font-family: 'Puritan', sans-serif;
+	margin:0 auto;
+	margin-top: 10px;
+	padding: 50px;
+}
+
+.header {
+	width: 75%;
+	margin:0 auto;
+	background-color: #9966CC;
+	padding-top: 30px;
+	padding-bottom: 15px;	
+
+}
+
+.name {
+	font-size: 600%;
+	color: #FFF;
+	padding-left: 30px;
+	font-weight: normal;
+}
+
+.logo {
+	float: left;
+	clear: both;
+	width: 16%;
+}
+
+.motto {
+	color: #48036F;
+	font-size: 150%;
+	font-style: italic;
+	border-bottom: thick solid;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	display: inline-block;
+	padding-bottom: 10px;
+
+}
+
+nav a:link,
+nav a:visited {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 150%;
+	color: #AD66D5;
+}
+
+nav a:hover {
+	color: #BFBB30;
+}
+
+p a:link,
+p a:visited {
+	text-decoration: none;
+	color: #AD66D5;
+}
+
+p a:hover {
+	color: #BFBB30;
+}
+
+ul {
+	margin-left: 20px;	
+	padding: 3px;
+}
+
+li {
+	margin-right: 40px;
+	padding: 1px;
+}
+
+.order {
+	float: right;
+	width: 35%;
+	padding: 1px;
+	border-radius: 5px;
+}
+
+.oven {
+	float: right;
+	width: 35%;
+	padding: 3px;
+	border-radius: 5px;
+}
+ .pizza {
+ 	float: right;
+	width: 30%;
+	padding: 1px;
+	border-radius: 5px;
+}
+
+.icons{
+	width: 3%;
+	float: right;
+	padding-left: 10px;
+}
+
+.all {
+	font-weight: bold;
+	color: #48036F;
+}
+
+.info {
+	margin-left: 20px;
+	font-weight: normal;
+	color: #000;
+}
+
